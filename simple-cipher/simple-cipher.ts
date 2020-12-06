@@ -3,7 +3,7 @@ const alphabet = 'abcdefghijklmnopqrstuvwxyz'
 
 class SimpleCipher {
 
-  private key: string
+  readonly key: string
 
   constructor(key?: string) {
     this.key = key || this.generateKey()
